@@ -1,0 +1,414 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 5px 0;
+    background-color: #338bff;
+}
+.medsos ul li{
+    display:  inline-block;
+    color: #fff;
+    margin-right: 10px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+   
+}
+header h1{
+    float: left;
+    padding: 15px 0;
+    color:#338bff;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: #338bff;
+    color:#fff
+}
+.active{
+    background-color: #338bff;
+    color:#fff
+}
+.banner {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    width: 100%; 
+    background-image: url(../img/benner1.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center; 
+    color: white; 
+    font-family: 'Arial, sans-serif'; 
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Bayangan teks untuk keterbacaan yang lebih baik */
+    margin: 0; /* Hapus margin default */
+    padding: 0; /* Hapus padding default */
+}
+
+.banner h2 {
+    margin: 0; /* Hapus margin default */
+}
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color:#24212196;
+    background-image: url(../img/latarparfum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-section {
+    flex: 1;
+    padding: 30px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content {
+    flex: 2;
+    padding: 10px;
+}
+
+.content h1 {
+    font-size: 80px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    color: #0a0909;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content h2 {
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    color: #0c0c0c;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.content p {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    color: #0e0d0d;
+    margin-top: 15px;
+    line-height: 1.7;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.product {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(243, 72, 172, 0.7);
+    background-image: url(../img/latarparfum.jpg);
+}
+
+.heading h1 {
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.heading h1 u {
+    text-decoration: underline;
+    text-decoration-color: #ff69b4;
+}
+
+.unclassed {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.threeSpread {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.outer {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.outer img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.outer p {
+    margin-bottom: 15px;
+}
+
+.outer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.outer .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff702a;
+    color: #fff;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    transition: transform 0.4s;
+}
+
+.outer .btn:hover {
+    transform: scale(1.2) translate(10px);
+}
+
+/* Gaya responsif */
+@media screen and (max-width: 768px) {
+    .heading h1 {
+        font-size: 28px;
+    }
+    .outer {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #e0dbdf;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../img/latarparfum.jpg);
+}
+
+
+.medsos {
+    background-color: #f05cad;
+    padding: 10px 0;
+}
+
+.medsos ul {
+    list-style: none;
+    text-align: center;
+}
+
+.medsos ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.medsos ul li a {
+    color: rgb(226, 235, 204);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header {
+    background-color: #0d0d0e;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: rgb(240, 58, 194);
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: #e2e6e9;
+    text-decoration: none;
+}
+
+header ul li.active a {
+    font-weight: bold;
+}
+
+.contact-container {
+    background-color: #ff74d1;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-container p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 3%);
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form, .contact-map {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #070707;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #10adeb;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+footer small {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .contact-content {
+        flex-direction: row;
+    }
+}
+
+
+.contact-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contact-text-container h2{
+    margin: 14px 0;
+    width: 75%;
+    font-weight: 600;
+  }
+  
+  .contact-text-container h3{
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  
+  .contact-text-container h6{
+    margin-top: 13px;
+    font-size: 14px;
+  
+  }
+  
+  
+  .contact-map{
+    width: 600px;
+    height: 420px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+  
+  }
+  
+  .contact-map iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
